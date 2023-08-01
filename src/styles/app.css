@@ -7,11 +7,16 @@
 * {
 margin: 0;
 }
+::-webkit-scrollbar{
+    display: none;
+  }
+  
 
 html, body {
 height: 100%;
 font-family: 'Josefin Sans', sans-serif;
 color: #393646;
+scroll-behavior: hidden;
 }
 
 body {

@@ -21,6 +21,7 @@
     flex-direction: column;
     justify-content: center;
     border-radius: 0px 0px 8px 8px;
+    background: #F7F7F7;
 }
 .price{
     font-weight: 400;
@@ -28,12 +29,12 @@
 .size{
     font-weight: 300;
 }
-.priceSize-0{
+.cardCatalog:hover .priceSize-0{
     box-shadow: 2px 2px 20px 0px #F2BED1;
 }
-.priceSize-1{
+.cardCatalog:hover .priceSize-1{
     box-shadow: 2px 2px 20px 0px #FFD966;
 }
-.priceSize-2{
+.cardCatalog:hover .priceSize-2{
     box-shadow: 2px 2px 20px 0px #ACB1D6;
 }

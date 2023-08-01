@@ -1,11 +1,13 @@
-import React from 'react'
+import '../styles/catalog.css'
 import Items from '../components/Items'
+import BannerCatalog from '../components/BannerCatalog'
 
 const Catalog = () => {
   return (
-    <div>
+    <section className='catalog'>
+      <BannerCatalog />
       <Items />
-    </div>
+    </section>
   )
 }
 
