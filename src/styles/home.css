@@ -1,0 +1,22 @@
+.subtitle{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ACB1D6;
+}
+
+.btnHome{
+    width: 538px;
+    height: 60px;
+    border: none;
+    color: #393646;
+    box-shadow: 4px 4px 40px 0px #ACB1D6;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 28px;
+    cursor: pointer;
+}
+.btnHome:hover{
+    background: #ACB1D6;
+    color: #fff
+}

@@ -24,6 +24,7 @@
     color: #2C74B3;
     font-size: 22px;
     border: none;
+    cursor: pointer;
 }
 .btnCatalog:hover{
     background: #2C74B3;
