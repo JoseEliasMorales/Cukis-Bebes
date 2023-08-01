@@ -1,0 +1,23 @@
+.navbar{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90px;
+}
+
+.menuList{
+    display: flex;
+    gap: 24px;
+}
+
+.itemMenu{
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #393646;
+}
+
+.itemMenu:hover{
+    color:#58A7C4 ;
+}
