@@ -1,0 +1,26 @@
+.bannerAsks{
+    width: 862px;
+}
+.titleAsks{
+    font-weight: 600;
+}
+.btnBannerAsks{
+    width: 142px;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    background: #2c74b3;
+    color: #fff;    
+    font-size: 28px;
+}
+.inputBannerAsks{
+    font-size: 28px;
+    width: 85%;
+    height: 60px;
+    border-radius: 100px;
+    border: 1px solid #2C74B3;
+}
+.containerInputBtn{
+    display: flex;
+    gap: 10px;
+}
