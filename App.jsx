@@ -4,6 +4,8 @@ import './src/styles/app.css'
 import Navbar from './src/containers/Navbar'
 import Catalog from './src/pages/Catalog'
 import Footer from './src/containers/Footer'
+import Sizes from './src/pages/Sizes'
+import Asks from './src/pages/Asks'
 export function App () {
   return (
     <BrowserRouter>
@@ -11,6 +13,8 @@ export function App () {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/catalog' element={<Catalog />} />
+        <Route path='/sizes' element={<Sizes />} />
+        <Route path='/asks' element={<Asks />} />
       </Routes>
       <Footer />
     </BrowserRouter>
