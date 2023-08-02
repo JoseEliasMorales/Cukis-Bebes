@@ -3,6 +3,7 @@ import Home from './src/pages/Home'
 import './src/styles/app.css'
 import Navbar from './src/containers/Navbar'
 import Catalog from './src/pages/Catalog'
+import Footer from './src/containers/Footer'
 export function App () {
   return (
     <BrowserRouter>
@@ -11,6 +12,7 @@ export function App () {
         <Route path='/' element={<Home />} />
         <Route path='/catalog' element={<Catalog />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
