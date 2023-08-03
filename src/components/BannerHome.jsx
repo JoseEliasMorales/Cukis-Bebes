@@ -11,7 +11,7 @@ const BannerHome = () => {
       <img src={lineBanner} alt='' className='lineBanner' />
       <img src={pinkForm} alt='' className='pinkForm' />
       <img src={cukisBebesForm} alt='' className='cukisBebesForm' />
-      <img src={title} alt='' className='title' />
+      <img src={title} alt='' className='titleBannerHome' />
     </div>
   )
 }
