@@ -1,0 +1,32 @@
+.contDelivery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../public/img/imagenGlobos3.png");
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    height: 538px;
+}
+
+.delivery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    height: 398px;
+    gap: 18px;
+}
+
+.separador{
+    width: 2px;
+    height: 398px;
+    background-color: #acb1d6;
+}
+
+.titleDelivery{
+    font-size: 28px;
+    font-weight: 500;
+}
