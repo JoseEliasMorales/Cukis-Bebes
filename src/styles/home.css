@@ -3,6 +3,7 @@
     font-size: 40px;
     font-weight: 700;
     color: #ACB1D6;
+    margin-bottom: 48px;
 }
 
 .btnHome{
@@ -15,6 +16,7 @@
     font-weight: 500;
     font-size: 28px;
     cursor: pointer;
+    margin-top: 60px;
 }
 .btnHome:hover{
     background: #ACB1D6;
