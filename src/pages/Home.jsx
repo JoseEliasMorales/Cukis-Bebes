@@ -4,10 +4,12 @@ import '../styles/home.css'
 import CardsNosContainer from '../containers/CardsNosContainer'
 import SobreNosotros from '../components/SobreNosotros'
 import Delivery from '../components/delivery'
+import BannerHome from '../components/BannerHome'
 
 const Home = () => {
   return (
     <div style={{ textAlign: 'center' }}>
+      <BannerHome />
       <div className='contGlobos'>
         <img src='../../public/img/imagenGlobos1.png' alt='' style={{ height: '179px' }} />
         <SobreNosotros />
