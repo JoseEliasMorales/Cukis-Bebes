@@ -4,7 +4,7 @@ import trends from '../products/productsTrend.json'
 import '../styles/home.css'
 import CardsNosContainer from '../containers/CardsNosContainer'
 import SobreNosotros from '../components/SobreNosotros'
-import Delivery from '../components/delivery'
+import Delivery from '../components/Delivery'
 import BannerHome from '../components/BannerHome'
 
 const Home = () => {
