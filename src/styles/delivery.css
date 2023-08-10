@@ -1,13 +1,9 @@
 .contDelivery{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-image: url("../../public/img/imagenGlobos3.png");
-    background-position-x: right;
-    background-repeat: no-repeat;
-    background-position-y: bottom;
     height: 538px;
+    position: relative;
 }
 
 .delivery{
@@ -29,4 +25,10 @@
 .titleDelivery{
     font-size: 28px;
     font-weight: 500;
+}
+.globosDelivery{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
 }
