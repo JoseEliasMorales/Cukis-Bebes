@@ -1,17 +1,34 @@
 import '../styles/bannerHome.css'
-import pinkForm from '../assets/pinkForm.png'
-import cukisBebesForm from '../assets/cukisBebesform.png'
-import lineBanner from '../assets/lineBannerHome.png'
-import body from '../assets/body.png'
-import title from '../assets/title.png'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import banner1 from '../assets/banner1.png'
+import banner2 from '../assets/banner2.png'
+import banner3 from '../assets/banner3.png'
+
 const BannerHome = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 800,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000
+  }
   return (
-    <div className='bannerHome'>
-      <img src={body} alt='' className='bodyBanner' />
-      <img src={lineBanner} alt='' className='lineBanner' />
-      <img src={pinkForm} alt='' className='pinkForm' />
-      <img src={cukisBebesForm} alt='' className='cukisBebesForm' />
-      <img src={title} alt='' className='titleBannerHome' />
+    <div>
+      <Slider {...settings}>
+        <div>
+          <img className='bannerHome' src={banner1} alt='Cukis bebes' />
+        </div>
+        <div>
+          <img className='bannerHome' src={banner2} alt='Conoce nuestros nuevos modelos' />
+        </div>
+        <div>
+          <img className='bannerHome' src={banner3} alt='Nueva temporada' />
+        </div>
+      </Slider>
     </div>
   )
 }

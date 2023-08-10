@@ -3,6 +3,7 @@
     height: 340px;
     background: url('../assets/wall.jpg');
     position: relative;
+    object-fit: contain;
 }
 .pinkForm{
     position: absolute;
