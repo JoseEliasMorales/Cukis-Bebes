@@ -1,4 +1,4 @@
-import BannerAsks from '../components/BAnnerAsks'
+import BannerAsks from '../components/BannerAsks'
 import '../styles/asks.css'
 
 const Asks = () => {
