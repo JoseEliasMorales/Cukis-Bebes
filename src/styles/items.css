@@ -1,0 +1,41 @@
+.cardsCatalog{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 129px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.cardCatalog{
+    text-align: center;
+    border-radius: 8px ;
+    
+}
+.imgCardCatalog{
+    width: 296px;
+    height: 296px;
+    border-radius: 8px 8px 0px 0px;
+}
+.priceSize{
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0px 0px 8px 8px;
+    background: #F7F7F7;
+}
+.price{
+    font-weight: 400;
+}
+.size{
+    font-weight: 300;
+}
+.cardCatalog:hover .priceSize-0{
+    box-shadow: 2px 2px 20px 0px #F2BED1;
+}
+.cardCatalog:hover .priceSize-1{
+    box-shadow: 2px 2px 20px 0px #FFD966;
+}
+.cardCatalog:hover .priceSize-2{
+    box-shadow: 2px 2px 20px 0px #ACB1D6;
+}

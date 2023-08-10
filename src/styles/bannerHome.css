@@ -1,0 +1,34 @@
+.bannerHome{
+    width: 100vw;
+    height: 340px;
+    background: url('../assets/wall.jpg');
+    position: relative;
+    object-fit: contain;
+}
+.pinkForm{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+.cukisBebesForm{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    z-index: 2;
+}
+.lineBanner{
+    position: absolute;
+    right: 0;
+}
+.bodyBanner{
+    position: absolute;
+    height: 340px;
+}
+.titleBannerHome{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}

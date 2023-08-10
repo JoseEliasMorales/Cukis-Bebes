@@ -1,0 +1,45 @@
+.formFooter{
+    width: 627px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.titleForm{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.nameTel{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    border: none;
+    border-radius: 8px;
+    height: 48px;
+    padding-left: 20px;
+}
+
+.inputName{
+    width: 40%;
+}
+
+.inputTel{
+    width: 55%;
+}
+.containerBtnForm{
+    text-align: right;
+}
+.btnForm{
+    width: 150px;
+    height: 48px;
+    border-radius: 8px;
+    background: #58a7c4;
+    border: none;
+    color:#fff;
+}

@@ -1,0 +1,22 @@
+.contSobreNosotros{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.texto{
+    font-size: 22px;
+}
+
+.sobreNosotros{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 666px;
+}
+
+.titleDelivery{
+    font-size: 28px;
+    font-weight: 500;
+}
