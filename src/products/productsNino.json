@@ -1,6 +1,6 @@
 [
     {
-        "img":"/src/assets/nino1.png",
+        "img":"../assets/nino1.png",
         "price":1800,
         "size": "0 a 1"
     },
