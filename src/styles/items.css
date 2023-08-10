@@ -3,12 +3,13 @@
     flex-wrap: wrap;
     gap: 129px;
     justify-content: center;
-    
+    margin-bottom: 60px;
 }
 
 .cardCatalog{
     text-align: center;
     border-radius: 8px ;
+    
 }
 .imgCardCatalog{
     width: 296px;

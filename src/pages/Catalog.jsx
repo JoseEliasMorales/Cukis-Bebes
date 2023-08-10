@@ -1,12 +1,12 @@
 import '../styles/catalog.css'
-import Items from '../components/Items'
 import BannerCatalog from '../components/BannerCatalog'
+import { Outlet } from 'react-router-dom'
 
 const Catalog = () => {
   return (
     <section className='catalog'>
       <BannerCatalog />
-      <Items />
+      <Outlet />
     </section>
   )
 }

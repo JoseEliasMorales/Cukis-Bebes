@@ -2,7 +2,7 @@ import '../styles/navbar.css'
 import instagram from '../assets/instagramNav.png'
 import { Link } from 'react-router-dom'
 
-const menu = [{ title: 'Inicio', path: '/' }, { title: 'Catálogo', path: '/catalog' }, { title: 'Tabla de medidas', path: '/sizes' }, { title: 'Preguntas frecuentes', path: '/asks' }]
+const menu = [{ title: 'Inicio', path: '/' }, { title: 'Catálogo', path: '/catalog/nino' }, { title: 'Tabla de medidas', path: '/sizes' }, { title: 'Preguntas frecuentes', path: '/asks' }]
 const Navbar = () => {
   return (
     <div className='navbar'>
