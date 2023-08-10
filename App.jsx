@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import itemsNino from './products/productsNino.json'
-import itemsNina from './products/productsNina.json'
+import { itemsNino, itemsNina } from './src/products/products'
 import Home from './src/pages/Home'
 import './src/styles/app.css'
 import Navbar from './src/containers/Navbar'

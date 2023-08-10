@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Items from '../components/Items'
-import trends from '../../products/productsTrend.json'
+import { itemsTrend } from '../products/products'
 import '../styles/home.css'
 import CardsNosContainer from '../containers/CardsNosContainer'
 import SobreNosotros from '../components/SobreNosotros'
@@ -18,7 +18,7 @@ const Home = () => {
       </div>
       <CardsNosContainer />
       <h2 className='subtitle'>Productos en tendencia</h2>
-      <Items items={trends} />
+      <Items items={itemsTrend} />
       <Link to='/catalog/nino'><button className='btnHome'>Ver catálogo completo</button></Link>
       <Delivery />
     </div>
