@@ -1,41 +1,41 @@
 [
     {
-        "img":"../assets/nina1.png",
+        "img":"/assets/nina1.png",
         "price":1800,
         "size": "0 a 1"
     },
     {
-        "img":"../assets/nina2.png",
+        "img":"/assets/nina2.png",
         "price":1800,
         "size": "0 a 1"
     },
     {
-        "img":"../assets/nina3.png",
+        "img":"/assets/nina3.png",
         "price":3000,
         "size": "0-1"
     },
     {
-        "img":"../assets/nina4.png",
+        "img":"/assets/nina4.png",
         "price":2600 ,
         "size": "0 a 1"
     },
     {
-        "img":"../assets/nina4.png",
+        "img":"/assets/nina4.png",
         "price":3100,
         "size": "2 a 4"
     },
     {
-        "img":"../assets/nina5.png",
+        "img":"/assets/nina5.png",
         "price":1800,
         "size": "0-1"
     },
     {
-        "img":"../assets/nina5.png",
+        "img":"/assets/nina5.png",
         "price":2300,
         "talle": "0-1"
     },
     {
-        "img":"../assets/nina6.png",
+        "img":"/assets/nina6.png",
         "price":1800,
         "size": "0 a 1"
     }
