@@ -3,6 +3,7 @@ import trend from '../products/productsTrend.json'
  */import '../styles/items.css'
 import { formatearPeso } from '../config/config'
 const Items = ({ items }) => {
+  console.log(items)
   return (
     <div className='cardsCatalog'>
       {items &&
