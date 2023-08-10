@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Items from '../components/Items'
-import trends from '../products/productsTrend.json'
+import trends from '../../products/productsTrend.json'
 import '../styles/home.css'
 import CardsNosContainer from '../containers/CardsNosContainer'
 import SobreNosotros from '../components/SobreNosotros'
