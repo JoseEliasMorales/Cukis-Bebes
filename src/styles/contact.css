@@ -1,7 +1,6 @@
 .containerContact{
     display: flex;
     flex-direction: column;
-    gap: 25px;
 }
 .titleContact{
     font-size: 48px;

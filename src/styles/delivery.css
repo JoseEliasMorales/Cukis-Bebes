@@ -4,6 +4,8 @@
     align-items: center;
     height: 538px;
     position: relative;
+    padding-bottom: 126px;
+    margin-top: 80px;
 }
 
 .delivery{
@@ -31,4 +33,12 @@
     bottom: 0;
     right: 0;
     z-index: -1;
+    height: 236px;
+}
+.globosDelivery2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 232px;
 }
