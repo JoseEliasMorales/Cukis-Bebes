@@ -16,16 +16,14 @@
     font-weight: 500;
     font-size: 28px;
     cursor: pointer;
-    
 }
 .btnHome:hover{
     background: #ACB1D6;
     color: #fff
 }
 
-
 .contCardsNosotros{
-    margin: 70px 0px;
+    margin: 70px 0px ;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -35,5 +33,5 @@
 .contGlobos{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }

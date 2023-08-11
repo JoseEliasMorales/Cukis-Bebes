@@ -1,13 +1,15 @@
 import React from 'react'
 import '../styles/delivery.css'
-import confirmation from '../assets/confirmation1.png'
-import clothing from '../assets/babyClothing1.png'
-import box from '../assets/box1.png'
-import globos from '../assets/imagenGlobos3.png'
+import confirmation from '../assets/dibujo1.png'
+import clothing from '../assets/dibujo2.png'
+import box from '../assets/dibujo3.png'
+import globos from '../assets/imagenCirculos3.png'
+import globos1 from '../assets/imagenRayas1.png'
 
 function Delivery () {
   return (
     <div className='contDelivery'>
+      <img src={globos1} alt=' ' className='globosDelivery2' />
       <div className='delivery'>
         <h3 className='titleDelivery'>Entregas personales</h3>
         <img src={confirmation} alt='Entregas personales' />

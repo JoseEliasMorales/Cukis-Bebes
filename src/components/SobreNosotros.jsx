@@ -4,7 +4,7 @@ import '../styles/sobreNosotros.css'
 function SobreNosotros () {
   return (
     <div>
-      <h2 className='subtitle' style={{ marginTop: '40px' }}>Sobre nosotros</h2>
+      <h2 className='subtitle' style={{ marginTop: '40px', marginBottom: '0px' }}>Sobre nosotros</h2>
       <div className='contSobreNosotros'>
         <div className='sobreNosotros'>
           <p className='texto'>Cukis Bebes es un emprendimiento enfocado en la confección de ropa para bebes de 0 a 24 meses.</p>
