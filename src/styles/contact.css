@@ -2,6 +2,18 @@
     display: flex;
     flex-direction: column;
 }
+
+.logoContact{
+    height: 211px;
+    width: 254px;
+}
+
+.divDisplayContact{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
 .titleContact{
     font-size: 48px;
     font-weight: 600;
@@ -16,3 +28,43 @@
     align-items: center;
     gap: 19px;
 }
+
+@media (max-width: 992px) {
+    .containerContact{
+        width: 90%;
+    }
+    .divDisplayContact{
+        gap: 0;
+        justify-content: space-between;
+    }
+    .titleContact{
+        font-size: 26px;
+    }
+
+    .imgContact{
+        width: 24px;
+    }
+
+    .logoContact{
+        width: 171px;
+        height: 142px;
+    }
+
+    .dateContact{
+        gap: 8px;
+    }
+    .textoContact{
+        font-size: 18px;
+    }
+  }
+
+@media (max-width: 576px) {
+    .titleContact{
+        font-size: 20px;
+    }
+    .textoContact{
+        font-size: 13px;
+    }
+  }
+
+ 

@@ -43,3 +43,22 @@
     border: none;
     color:#fff;
 }
+
+@media (max-width: 992px) {
+    .formFooter{
+        width: 90%;
+        gap: 5px;
+    }
+    .titleForm{
+        text-align: start;
+        font-size: 26px;
+    }
+  }
+
+@media (max-width: 576px) {
+    .titleForm{
+        font-size: 20px;
+    }
+  }
+
+  

@@ -7,22 +7,22 @@ const Contact = () => {
   return (
     <div className='containerContact'>
       <h3 className='titleContact'>Contactame</h3>
-      <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+      <div className='divDisplayContact'>
         <div className='containerDateContact'>
           <div className='dateContact'>
-            <img src={whats} alt='whatsapp' />
-            <p>12345678910</p>
+            <img src={whats} alt='whatsapp' className='imgContact' />
+            <p className='textoContact'>12345678910</p>
           </div>
           <div className='dateContact'>
-            <img src={insta} alt='instagram' />
-            <p>@Cukisbebes</p>
+            <img src={insta} alt='instagram' className='imgContact' />
+            <p className='textoContact'>@Cukisbebes</p>
           </div>
           <div className='dateContact'>
-            <img src={face} alt='facebook' />
-            <p>Cukis bebes</p>
+            <img src={face} alt='facebook' className='imgContact' />
+            <p className='textoContact'>Cukis bebes</p>
           </div>
         </div>
-        <img src={logo} style={{ height: '211px', width: '254px' }} alt='' />
+        <img src={logo} alt='' className='logoContact' />
       </div>
     </div>
   )

@@ -12,3 +12,96 @@
     padding: 0px 25px;
     box-shadow: 4px 4px 40px 0px rgba(172, 177, 214, 0.50);
 }
+
+.subtitleH3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ACB1D6;
+}
+
+.textoCards{
+    font-size: 22px;
+}
+
+@media(max-width: 1400px){
+    .cardNosotros{
+        width: 350px;
+        height: 350px;
+        margin: 0px 15px 5px;
+    }
+    
+    .imgCards{
+        width: 100px;
+    }
+
+    .textoCards{
+        font-size: 16px;
+        width: 290px;
+    }
+
+    .subtitleH3{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1200px){
+    .cardNosotros{
+        width: 320px;
+        height: 320px;
+    }
+    
+    .imgCards{
+        width: 90px;
+    }
+
+    .textoCards{
+        font-size: 16px;
+        width: 270px;
+    }
+
+    .subtitleH3{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 992px) {
+    .cardNosotros{
+        width: 290px;
+        height: 290px;
+        margin: 0px 10px 5px;
+    }
+    
+    .imgCards{
+        width: 85px;
+    }
+
+    .textoCards{
+        font-size: 14px;
+    }
+    .subtitleH3{
+        font-size: 24px;
+    }
+    
+  }
+
+@media (max-width: 768px) {
+    .cardNosotros{
+        width: 225px;
+        height: 225px;
+        gap: 5px;
+    }
+    .textoCards{
+        font-size: 13px;
+        width: 190px;
+    }
+    .imgCards{
+        width: 55px;
+    }
+    .subtitleH3{
+        font-size: 22px;
+    }
+}
+
+  

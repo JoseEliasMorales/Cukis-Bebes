@@ -15,6 +15,8 @@
 }
 .btnsCatalog{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
 }
 .btnCatalog{
@@ -31,7 +33,144 @@
     background: #2C74B3;
     color: #F7F7F7;
 }
-.fox{
+.globoVerano, .fanInv, .fanVer, .globoCatalog, .fanMedia, .globoMedia, .rayasMedia{
     position: absolute;
-    right: 48px;
 }
+.globoCatalog{
+    right: 0px;
+    width: 104px;
+}
+.globoCatalog{
+    right: 0px;
+    top: 5px;
+}
+
+.globoVerano{
+    left: 0;
+    top: 101px;
+}
+
+.globoMedia{
+    right: 0;
+    top: 5px;
+}
+.rayasMedia{
+    left: 0;
+}
+
+@media (max-width: 1400px) {
+    .rayasMedia{
+        display: none;
+    }
+}
+
+@media (max-width: 1200px){
+    .fanInv, .fanVer, .fanMedia{
+        width: 135px; 
+    }
+    .banner{
+        height: 200px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .btnCatalog{
+        width: 145px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .globoCatalog{
+        width: 73px;
+        right: 0px;
+        top: 5px;
+    }
+
+    .globoVerano{
+        left: 0;
+        top: 82px;
+        width: 198px;
+    }
+
+    .globoMedia{
+        right: 0;
+        width: 45px;
+        top: 5px;
+    }
+    .rayasMedia{
+        display: block;
+        width: 100px;
+    }
+}
+@media (max-width: 992px) {
+    .rayasMedia{
+        display: none;
+    }
+    .title{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner{
+        height: 150px;
+        gap: 10px;
+        margin-top: 40px;
+    }
+    .btnCatalog{
+        width: 100px;
+        height: 28px;
+        font-size: 12px;
+    }
+    .btnsCatalog{
+        width: 60%;
+    }
+    .globoVerano{
+        top: 55px;
+        width: 160px;
+    }
+    .globoCatalog{
+        width: 55px;
+    }
+    .globoMedia{
+        width: 35px;
+    }
+    .rayasMedia{
+        display: block;
+        left: 0;
+        width: 73px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner{
+        height: 120px;
+    }
+    .title{
+        font-size: 17px;
+    }
+    .btnsCatalog{
+        width: 100%;
+    }
+    .btnCatalog{
+        width: 90px;
+        height: 28px;
+        font-size: 10px;
+    }
+    .globoVerano{
+        top: 79px;
+        width: 69px;
+    }
+
+    .globoMedia{
+        width: 25px;
+    }
+    .rayasMedia{
+        top: 7px;
+        width: 34px;
+    }
+    .globoCatalog{
+        width: 44px;
+        top: 4px;
+    }
+}
+
