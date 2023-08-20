@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/sizes.css'
-import SizesCard from '../components/sizesCard'
+import SizesCard from '../components/SizesCard'
 import talle0 from '../assets/talle0.png'
 import talle1 from '../assets/talle1.png'
 import talle2 from '../assets/talle2.png'
