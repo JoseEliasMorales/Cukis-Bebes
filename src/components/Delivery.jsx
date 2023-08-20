@@ -12,17 +12,17 @@ function Delivery () {
       <img src={globos1} alt=' ' className='globosDelivery2' />
       <div className='delivery'>
         <h3 className='titleDelivery'>Entregas personales</h3>
-        <img src={confirmation} alt='Entregas personales' />
+        <img src={confirmation} alt='Entregas personales' className='imgDelivery' />
       </div>
       <div className='separador' />
       <div className='delivery'>
         <h3 className='titleDelivery'>Ropa hecha a mano</h3>
-        <img src={clothing} alt='Ropa hecha a mano' />
+        <img src={clothing} alt='Ropa hecha a mano' className='imgDelivery' />
       </div>
       <div className='separador' />
       <div className='delivery'>
         <h3 className='titleDelivery'>Compra totalmente segura</h3>
-        <img src={box} alt='Compra totalmente segura' style={{ height: '262px' }} />
+        <img src={box} alt='Compra totalmente segura' className='imgDelivery' />
       </div>
       <img src={globos} alt=' ' className='globosDelivery' />
     </div>

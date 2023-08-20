@@ -1,0 +1,93 @@
+.cardSizes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 654px;
+    height: 264px;
+    margin: 30px 17px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 20px 0px #ACB1D6;
+}
+
+.imageSizes{
+    margin-top: 18px;
+    margin-bottom: 4px;
+}
+
+.contEdadPeso{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 46px;
+    gap: 60px;
+}
+
+.edadPeso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+}
+
+.subtitleSizes{
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.textoTalles{
+    font-size: 37px;
+    font-weight: 300;
+}
+
+@media(max-width: 768px) {
+    .cardSizes{
+        width: 500px;
+        height: 200px;
+        margin: 11px 0px;
+    }
+
+    .imageSizes{
+        width: 90px;
+    }
+    .contEdadPeso{
+        margin-top: 20px;
+        width: 350px;
+        gap: 45px;
+    }
+    .subtitleSizes{
+        font-size: 22px;
+    }
+    .textoTalles{
+        font-size: 26px;
+    }
+    .svgTalles{
+        width: 160px;
+    }
+}
+
+@media(max-width: 576px) {
+    .cardSizes{
+        width: 320px;
+        height: 130px;
+        margin: 11px 0px;
+    }
+
+    .imageSizes{
+        width: 69px;
+    }
+    .contEdadPeso{
+        margin-top: 8px;
+        width: 250px;
+        gap: 30px;
+    }
+    .subtitleSizes{
+        font-size: 18px;
+    }
+    .textoTalles{
+        font-size: 17px;
+    }
+    .svgTalles{
+        width: 103px;
+    }
+}

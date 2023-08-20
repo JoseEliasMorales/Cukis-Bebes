@@ -1,6 +1,5 @@
 .bannerHome{
     width: 100vw;
-    height: 340px;
     background: url('../assets/wall.jpg');
     position: relative;
     object-fit: contain;
@@ -32,3 +31,11 @@
     bottom: 0;
     margin: auto;
 }
+
+
+@media (max-width: 768px) {
+    .bannerHome{
+        height: auto;
+        margin-top: 40px;
+    }
+  }

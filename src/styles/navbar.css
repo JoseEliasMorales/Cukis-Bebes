@@ -11,6 +11,36 @@
     gap: 24px;
 }
 
+.buttonNav{
+    outline: 0;
+    border: 0;
+    background-color: #ACB1D6;
+    transition: all .1s ease;
+}
+
+.menuListMobile{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    margin-top: 208px;
+    width: 100%;
+    z-index: 5;
+    background-color: #ACB1D6;
+    left: 0;
+    overflow: hidden;
+    transition: all 0.1s ease-in;
+}
+
+.abierto{
+    padding: 10px;
+    height: 174px;
+}
+
+.cerrado{
+    padding: 0px;
+    height: 0px; 
+}
+
 .itemMenu{
     font-size: 22px;
     font-weight: 400;
@@ -21,3 +51,50 @@
 .itemMenu:hover{
     color:#58A7C4 ;
 }
+
+.buttonNav{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        justify-content: start;
+        gap: 20px;
+        padding: 0px 10px;
+        height: 40px;
+        background: #f7f7f7;
+        z-index: 12;
+        position: absolute;
+        top: 0;
+    }
+    .contName{
+        color: #ACB1D6;
+    }
+
+    .buttonNav{
+        display: block;
+        background-color: #f7f7f7;
+    }
+    
+    .instagramHeader{
+        display: none;
+    }
+
+    .svgButton{
+        color: #ACB1D6;
+    }
+
+    .buttonNav:active{
+        transform: scale(.9);
+    }
+
+    .menuList{
+        display: none;
+    }
+    .menuListMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+  }

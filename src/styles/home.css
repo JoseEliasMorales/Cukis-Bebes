@@ -35,3 +35,131 @@
     flex-direction: row;
     justify-content: center;
 }
+
+.globo1{
+    height: 293px;
+    margin-top: 122px;
+    position: absolute;
+    left: 0;
+}
+
+.globo2{
+    height: 290px;
+    position: absolute;
+    right: 0;
+}
+
+.globo3{
+    height: 501px;
+    margin-top: 1186px;
+    position: absolute;
+    left: 0;
+    z-index: -10;
+}
+
+.rayas1{
+    height: 293px;
+    margin-top: 985px;
+    position: absolute;
+    right: 0;
+    z-index: -10;
+    display: none;
+}
+
+@media (max-width: 1200px){
+    .contCardsNosotros{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .subtitle{
+        font-size: 28px;
+    }
+    
+    .globo2{
+        width: 60px;
+        height: 137px;
+    }
+
+    .globo1{
+        height: 207px;
+    }
+
+    .globo3{
+        height: 303px;
+        margin-top: 1350px;
+    }
+    .btnHome{
+        width: 300px;
+        font-size: 18px;
+    }
+    .rayas1{
+        display: block;
+        margin-top: 700px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .subtitle{
+        font-size: 26px;
+    }
+    .contCardsNosotros{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 48px 0px;
+    }
+
+    .globo3{
+        height: 303px;
+        margin-top: 1620px;
+    }
+
+    .globo2{
+        width: 60px;
+        height: 137px;
+    }
+
+    .globo1{
+        height: 207px;
+    }
+    .btnHome{
+        width: 300px;
+        font-size: 18px;
+    }
+  }
+
+@media (max-width: 576px) {
+    .contCardsNosotros{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 48px 0px;
+    }
+
+    .globo2{
+        width: 38px;
+        height: 97px;
+    }
+
+    .globo1{
+        height: 127px;
+    }
+
+    .globo3{
+        height: 153px;
+        margin-top: 1620px;
+    }
+    .rayas1{
+        display: none;
+    }
+  }
+
+  

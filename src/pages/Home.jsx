@@ -16,11 +16,11 @@ const Home = () => {
     <div style={{ textAlign: 'center' }}>
       <BannerHome />
       <div className='contGlobos'>
-        <img src={globos1} alt='' style={{ height: '293px', marginTop: '122px', position: 'absolute', left: '0' }} />
-        <img src={globos3} alt='' style={{ height: '501px', marginTop: '1185px', position: 'absolute', left: '0', zIndex: '-10' }} />
-        <img src={rayas1} alt='' style={{ height: '293px', marginTop: '985px', position: 'absolute', right: '0', zIndex: '-10' }} />
+        <img src={globos1} alt='' className='globo1' />
+        <img src={globos3} alt='' className='globo3' />
+        <img src={rayas1} alt='' className='rayas1' />
         <SobreNosotros />
-        <img src={globos2} alt='' style={{ height: '290px', position: 'absolute', right: '0' }} />
+        <img src={globos2} alt='' className='globo2' />
       </div>
       <CardsNosContainer />
       <h2 className='subtitle'>Productos en tendencia</h2>

@@ -1,4 +1,51 @@
 .tape{
     position: absolute;
-    left: 48px;
+    left: 28px;
+    width: 290px;  
+    top: 125px;
 }
+
+.textoBannerSizes{
+    z-index: 10;
+    text-align: center;
+    font-size: 24px;
+    width: 900px;
+}
+
+@media (max-width: 1200px) {
+    .tape{
+        width: 185px;  
+        left: 10px;
+        top: 95px;
+    }
+}
+
+@media (max-width: 992px) {
+    .textoBannerSizes{
+        font-size: 18px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tape{
+        width: 150px;  
+        top: 64px;
+    }
+    .textoBannerSizes{
+        font-size: 14px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .tape{
+        width: 100px;  
+        top: 60px;
+    }
+    .textoBannerSizes{
+        font-size: 10px;
+        width: 155px;
+    }
+}
+

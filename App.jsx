@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { itemsNino, itemsNina } from './src/products/products'
+import { itemsVerano, itemsInvierno } from './src/products/products'
 import Home from './src/pages/Home'
 import './src/styles/app.css'
 import Navbar from './src/containers/Navbar'
@@ -15,8 +15,9 @@ export function App () {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='catalog' element={<Catalog />}>
-          <Route path='nino' element={<Items items={itemsNino} />} />
-          <Route path='nina' element={<Items items={itemsNina} />} />
+          <Route path='verano' element={<Items items={itemsVerano} />} />
+          <Route path='invierno' element={<Items items={itemsInvierno} />} />
+          <Route path='media-estacion' element={<Items items={itemsVerano} />} />
         </Route>
         <Route path='/sizes' element={<Sizes />} />
         <Route path='/asks' element={<Asks />} />
