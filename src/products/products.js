@@ -18,7 +18,7 @@ import trend3 from '../assets/tendencia3.png'
 import trend4 from '../assets/tendencia4.png'
 import trend6 from '../assets/tendencia6.png'
 
-export const itemsNina = [
+export const itemsInvierno = [
   {
     img: nina1,
     price: 1800,
@@ -61,7 +61,7 @@ export const itemsNina = [
   }
 ]
 
-export const itemsNino = [
+export const itemsVerano = [
   {
     img: nino1,
     price: 1800,

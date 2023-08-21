@@ -16,3 +16,21 @@
     width: 666px;
 }
 
+@media (max-width: 992px) {
+    .sobreNosotros{
+        width: 80%;
+    }
+
+    .texto{
+        font-size: 16px;
+    }
+  }
+
+@media (max-width: 768px) {
+    .texto{
+        font-size: 14px;
+    }
+  }
+
+
+ 

@@ -24,3 +24,27 @@
     display: flex;
     gap: 10px;
 }
+
+@media (max-width: 768px) {
+    .bannerAsks{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 70px;
+        gap: 10px;
+    }
+    .inputBannerAsks{
+        font-size: 15px;
+        height: 30px;
+    }
+    .btnBannerAsks{
+        height: 30px;
+        font-size: 14px;
+        width: 75px;
+    }
+    .titleAsks{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
