@@ -25,7 +25,7 @@ const Home = () => {
       <CardsNosContainer />
       <h2 className='subtitle'>Productos en tendencia</h2>
       <Items items={itemsTrend} />
-      <Link to='/catalog/nino'><button className='btnHome'>Ver catálogo completo</button></Link>
+      <Link to='/catalog/invierno'><button className='btnHome'>Ver catálogo completo</button></Link>
       <Delivery />
     </div>
   )

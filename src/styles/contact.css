@@ -1,6 +1,7 @@
 .containerContact{
     display: flex;
     flex-direction: column;
+    width:80%;
 }
 
 .logoContact{
@@ -11,7 +12,8 @@
 .divDisplayContact{
     display: flex;
     gap: 20px;
-    align-items: center;
+    
+    justify-content: space-between;
 }
 
 .titleContact{

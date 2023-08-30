@@ -11,7 +11,7 @@ import { useState } from 'react'
 
 const BannerCatalog = () => {
   const [estacion, setEstacion] = useState('Verano')
-  const [botonActivo, setBotonActivo] = useState('Verano')
+  const [botonActivo, setBotonActivo] = useState('Invierno')
   const btns = [{ name: 'Invierno', path: '/catalog/invierno' }, { name: 'Verano', path: '/catalog/verano' }, { name: 'Media estación', path: '/catalog/media-estacion' }]
   return (
     <section className='banner'>

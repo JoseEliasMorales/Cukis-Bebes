@@ -1,5 +1,5 @@
 import Contact from '../components/Contact'
-import FormFooter from '../components/FormFooter'
+/* import FormFooter from '../components/FormFooter' */
 import '../styles/footer.css'
 
 const Footer = () => {
@@ -7,7 +7,7 @@ const Footer = () => {
     <section className='footer'>
       <div className='containerFooter'>
         <Contact />
-        <FormFooter />
+        {/* <FormFooter /> */}
       </div>
       <p className='rigths'>Todos los derechos reservados</p>
     </section>
