@@ -1,5 +1,6 @@
 import '../styles/navbar.css'
 import instagram from '../assets/instagramNav.png'
+import logo from '../assets/logoblanco.png'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -22,7 +23,7 @@ const Navbar = () => {
           </defs>
         </svg>
       </button>
-      <div className='contName'>Cukis Bebés</div>
+      <Link className='contName' to='/'> <img className='logoNavbar' src={logo} alt='' />Cukis Bebés</Link>
       <div className='menuList'>
         {
               menu.map(li => (
@@ -44,7 +45,7 @@ const Navbar = () => {
             ))
           }
       </div>
-      <img src={instagram} alt='instagram Cukis Bebes' className='instagramHeader' />
+      <a href='https://www.instagram.com/cukis.bebes/' target='_blank' rel='noreferrer'><img src={instagram} alt='instagram Cukis Bebes' className='instagramHeader' /></a>
     </div>
   )
 }

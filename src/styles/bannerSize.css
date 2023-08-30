@@ -2,3 +2,19 @@
     position: absolute;
     left: 48px;
 }
+.textoBannerSizes{
+    font-size: 27px;
+}
+
+.lines{
+    position: absolute;
+    left: 200px;
+    width:172px ; 
+    bottom:-125px;
+    rotate: 85deg;
+    transform: scaleX(-1);
+    
+}
+.banner{
+    overflow: hidden;
+}
