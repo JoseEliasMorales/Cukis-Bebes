@@ -1,0 +1,22 @@
+.ask{
+    display: flex;
+    width: 80%;
+    height: 80px;
+    font-size: 24px;
+    justify-content: space-between;
+    padding-left:20px ;
+    padding-right: 20px;
+    align-items: center;
+    margin: auto;
+    border-radius: 100px;
+background: #F7F7F7;
+box-shadow: 2px 2px 10px 0px rgba(44, 116, 179, 0.50);
+margin-bottom: 20px;
+}
+
+.ask:first-child{
+    margin-top: 60px;
+}
+.more{
+    cursor: pointer;
+}

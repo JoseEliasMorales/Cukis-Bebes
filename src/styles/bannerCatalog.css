@@ -33,6 +33,10 @@
     background: #2C74B3;
     color: #F7F7F7;
 }
+.btnCatalog.active {
+    background: #2C74B3;
+    color: #F7F7F7;
+  }
 .globoVerano, .fanInv, .fanVer, .globoCatalog, .fanMedia, .globoMedia, .rayasMedia{
     position: absolute;
 }

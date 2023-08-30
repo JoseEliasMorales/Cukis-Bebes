@@ -6,6 +6,7 @@ import { useState } from 'react'
 const menu = [{ title: 'Inicio', path: '/' }, { title: 'Catálogo', path: '/catalog/verano' }, { title: 'Tabla de medidas', path: '/sizes' }, { title: 'Preguntas frecuentes', path: '/asks' }]
 const Navbar = () => {
   const [abiertoCerrado, setAbiertoCerrado] = useState('cerrado')
+  const [enlaceActivo, setEnlaceActivo] = useState('/')
   console.log(abiertoCerrado)
   return (
     <div className='navbar'>
@@ -25,7 +26,14 @@ const Navbar = () => {
       <div className='menuList'>
         {
               menu.map(li => (
-                <Link to={li.path} className='itemMenu' key={li.title}>{li.title}</Link>
+                <Link
+                  to={li.path}
+                  className={`itemMenu ${enlaceActivo === li.path ? 'active' : ''}`}
+                  key={li.title}
+                  onClick={() => setEnlaceActivo(li.path)}
+                >
+                  {li.title}
+                </Link>
               ))
             }
       </div>
