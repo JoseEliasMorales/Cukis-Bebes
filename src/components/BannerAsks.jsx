@@ -1,5 +1,6 @@
 import '../styles/bannerAsks.css'
-import giraffe from '../assets/giraffe.png'
+import ghost from '../assets/ghostAsk.png'
+import flower from '../assets/flower.png'
 const BannerAsks = () => {
   return (
     <div className='banner'>
@@ -10,7 +11,8 @@ const BannerAsks = () => {
           <button className='btnBannerAsks'>Buscar</button>
         </div>
       </div>
-      <img src={giraffe} alt=' ' className='tape' />
+      <img src={ghost} alt=' ' className='tape' />
+      <img src={flower} alt=' ' className='flower' />
     </div>
   )
 }

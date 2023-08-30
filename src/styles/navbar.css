@@ -52,6 +52,10 @@
     color:#58A7C4 ;
 }
 
+.itemMenu.active{
+    color:#58A7C4 ;
+}
+
 .buttonNav{
     display: none;
 }
