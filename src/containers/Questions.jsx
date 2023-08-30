@@ -1,8 +1,7 @@
 import React from 'react'
 import { questions } from '../products/asks'
 import more from '../assets/more.png'
-import '../styles/question.css'
-
+import '../styles/questions.css'
 const Questions = () => {
   return (
     <div>
