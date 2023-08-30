@@ -11,6 +11,7 @@ import { useState } from 'react'
 
 const BannerCatalog = () => {
   const [estacion, setEstacion] = useState('Verano')
+  const [botonActivo, setBotonActivo] = useState('Verano')
   const btns = [{ name: 'Invierno', path: '/catalog/invierno' }, { name: 'Verano', path: '/catalog/verano' }, { name: 'Media estación', path: '/catalog/media-estacion' }]
   return (
     <section className='banner'>
@@ -18,8 +19,10 @@ const BannerCatalog = () => {
       <div className='btnsCatalog'>
         {
             btns.map((btn) => (
-              <Link to={btn.path} key={btn.name} onClick={() => setEstacion(`${btn.name}`)}>
-                <button className='btnCatalog' key={btn.name}>{btn.name}</button>
+              <Link to={btn.path} key={btn.name} onClick={() => { setEstacion(btn.name); setBotonActivo(btn.name) }}>
+                <button className={`btnCatalog ${botonActivo === btn.name ? 'active' : ''}`} key={btn.name}>
+                  {btn.name}
+                </button>
               </Link>
             ))
         }
