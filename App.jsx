@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { itemsVerano, itemsInvierno } from './src/products/products'
+import { itemsVerano, itemsInvierno, itemsMediaEstacion } from './src/products/products'
 import Home from './src/pages/Home'
 import './src/styles/app.css'
 import Navbar from './src/containers/Navbar'
@@ -17,7 +17,7 @@ export function App () {
         <Route path='catalog' element={<Catalog />}>
           <Route path='verano' element={<Items items={itemsVerano} />} />
           <Route path='invierno' element={<Items items={itemsInvierno} />} />
-          <Route path='media-estacion' element={<Items items={itemsVerano} />} />
+          <Route path='media-estacion' element={<Items items={itemsMediaEstacion} />} />
         </Route>
         <Route path='/sizes' element={<Sizes />} />
         <Route path='/asks' element={<Asks />} />
