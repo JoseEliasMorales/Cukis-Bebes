@@ -10,7 +10,7 @@ const BtnWhatsapp = () => {
   }
   return (
     <a href='https://wa.me/c/5493516001513' target='_blank' className='btnWhats' rel='noreferrer' onMouseEnter={handleHover} onMouseLeave={handleHover}>
-      <img src={hovered ? whatsBtn : whatsBtnTransparent} alt='' />
+      <img style={{ marginBottom: '3px' }} src={hovered ? whatsBtn : whatsBtnTransparent} alt='' />
       Consultar Precio
     </a>
   )
