@@ -16,6 +16,20 @@ import invierno15 from '../assets/invierno15.png'
 import invierno16 from '../assets/invierno16.png'
 import invierno17 from '../assets/invierno17.png'
 import invierno18 from '../assets/invierno18.png'
+import invierno19 from '../assets/invierno19.jpg'
+import invierno20 from '../assets/invierno20.jpg'
+import invierno21 from '../assets/invierno21.jpg'
+import invierno22 from '../assets/invierno22.jpg'
+import invierno23 from '../assets/invierno23.jpg'
+import invierno24 from '../assets/invierno24.jpg'
+import invierno25 from '../assets/invierno25.jpg'
+import invierno26 from '../assets/invierno26.jpg'
+import invierno27 from '../assets/invierno27.jpg'
+import invierno28 from '../assets/invierno28.jpg'
+import invierno29 from '../assets/invierno29.jpg'
+import invierno30 from '../assets/invierno30.jpg'
+import invierno31 from '../assets/invierno31.jpg'
+import invierno32 from '../assets/invierno32.jpg'
 import verano1 from '../assets/verano1.png'
 import verano2 from '../assets/verano2.png'
 import verano3 from '../assets/verano3.png'
@@ -40,6 +54,8 @@ import mediaEstacion6 from '../assets/mediaEstacion6.png'
 import mediaEstacion7 from '../assets/mediaEstacion7.png'
 import mediaEstacion8 from '../assets/mediaEstacion8.png'
 import mediaEstacion9 from '../assets/mediaEstacion9.png'
+import mediaEstacion10 from '../assets/mediaEstacion10.jpg'
+import mediaEstacion11 from '../assets/mediaEstacion11.jpg'
 import trend3 from '../assets/tendencia3.png'
 import trend4 from '../assets/tendencia4.png'
 import trend6 from '../assets/tendencia6.png'
@@ -49,92 +65,162 @@ export const itemsInvierno = [
   {
     img: invierno1,
     price: 1800,
-    size: '0-1-2-3-4'
+    size: '0 al 4'
   },
   {
     img: invierno2,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno3,
     price: 3000,
-    size: '0-1'
+    size: '0 al 4'
   },
   {
     img: invierno4,
     price: 2600,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno5,
     price: 3100,
-    size: '2 a 4'
+    size: '0 al 4'
   },
   {
     img: invierno6,
     price: 1800,
-    size: '0-1'
+    size: '0 al 4'
   },
   {
     img: invierno7,
     price: 2300,
-    talle: '0-1'
+    talle: '0 al 4'
   },
   {
     img: invierno8,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno9,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno10,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno11,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno12,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno13,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno14,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno15,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno16,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno17,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
   },
   {
     img: invierno18,
     price: 1800,
-    size: '0 a 1'
+    size: '0 al 4'
+  },
+  {
+    img: invierno19,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno20,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno21,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno22,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno23,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno24,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno25,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno26,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno27,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno28,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno29,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno30,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno31,
+    price: 1800,
+    size: '0 al 4'
+  },
+  {
+    img: invierno32,
+    price: 1800,
+    size: '0 al 4'
   }
 ]
 
@@ -142,47 +228,57 @@ export const itemsMediaEstacion = [
   {
     img: mediaEstacion1,
     price: 1800,
-    size: '0 a 1'
+    size: '1 al 4'
   },
   {
     img: mediaEstacion2,
     price: 1800,
-    size: '0 a 1'
+    size: '1 al 4'
   },
   {
     img: mediaEstacion3,
     price: 3000,
-    size: '0-1'
+    size: '1'
   },
   {
     img: mediaEstacion4,
     price: 2600,
-    size: '0 a 1'
+    size: '1 al 4'
   },
   {
     img: mediaEstacion5,
     price: 3100,
-    size: '2 a 4'
+    size: '1 al 4'
   },
   {
     img: mediaEstacion6,
     price: 3100,
-    size: '2 a 4'
+    size: '1 al 4'
   },
   {
     img: mediaEstacion7,
     price: 3100,
-    size: '2 a 4'
+    size: '1 al 4'
   },
   {
     img: mediaEstacion8,
     price: 3100,
-    size: '2 a 4'
+    size: '1 al 4'
   },
   {
     img: mediaEstacion9,
     price: 3100,
-    size: '2 a 4'
+    size: '0 y 1'
+  },
+  {
+    img: mediaEstacion10,
+    price: 3100,
+    size: '1 al 4'
+  },
+  {
+    img: mediaEstacion11,
+    price: 3100,
+    size: '1 al 4'
   }
 ]
 
@@ -190,77 +286,77 @@ export const itemsVerano = [
   {
     img: verano1,
     price: 1800,
-    size: '0 a 1'
+    size: '1 al 4'
   },
   {
     img: verano2,
     price: 2300,
-    size: '2 a 4'
+    size: '1 al 4'
   },
   {
     img: verano3,
     price: 1800,
-    size: '0 a 1'
+    size: '1 al 4'
   },
   {
     img: verano4,
     price: 2300,
-    size: '2 a 4'
+    size: '1 al 4'
   },
   {
     img: verano5,
     price: 3000,
-    size: '0-1'
+    size: '1 al 4'
   },
   {
     img: verano6,
     price: 3000,
-    size: '0-1'
+    size: '1 al 4'
   },
   {
     img: verano7,
     price: 5000,
-    size: '0-1'
+    size: '1 al 4'
   },
   {
     img: verano8,
     price: 3000,
-    talle: '0-1'
+    talle: '1 al 4'
   },
   {
     img: verano9,
     price: 3000,
-    size: '0-1'
+    size: '1 al 4'
   },
   {
     img: verano10,
     price: 3000,
-    size: '0-1'
+    size: '1 al 4'
   },
   {
     img: verano11,
     price: 3000,
-    size: '0-1'
+    size: '1 al 4'
   },
   {
     img: verano12,
     price: 3000,
-    size: '0-1'
+    size: '1 al 4'
   },
   {
     img: verano13,
     price: 3000,
-    size: '0-1'
+    size: '1 al 4'
   },
   {
     img: verano14,
     price: 3000,
-    size: '0-1'
+    size: '1 al 4'
   },
   {
     img: verano15,
     price: 3000,
-    size: '0-1'
+    size: '1 al 4'
   }
 ]
 
@@ -268,31 +364,31 @@ export const itemsTrend = [
   {
     img: invierno3,
     price: 3000,
-    size: '0-1'
+    size: '0 al 4'
   },
   {
     img: invierno10,
     price: 3000,
-    size: '0-1'
+    size: '0 al 4'
   },
   {
     img: trend3,
     price: 3000,
-    size: '0-1'
+    size: '0 al 4'
   },
   {
     img: trend4,
     price: 3000,
-    size: '0-1'
+    size: '0 al 4'
   },
   {
     img: trend7,
     price: 3000,
-    size: '0-1'
+    size: '0 al 4'
   },
   {
     img: trend6,
     price: 3000,
-    size: '0-1'
+    size: '0 al 4'
   }
 ]

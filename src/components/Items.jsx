@@ -1,9 +1,8 @@
 /* import products from '../products/products.json'
 import trend from '../products/productsTrend.json'
  */import '../styles/items.css'
-import { formatearPeso } from '../config/config'
+import BtnWhatsapp from './BtnWhatsapp'
 const Items = ({ items }) => {
-  console.log(items)
   return (
     <div className='cardsCatalog'>
       {items &&
@@ -11,9 +10,10 @@ const Items = ({ items }) => {
         <div key={index} className='cardCatalog'>
           <img className='imgCardCatalog' src={product.img} alt='' />
           <div className={`priceSize priceSize-${index % 3}`}>
-            <p className='price'>ARS {formatearPeso.format(product.price)} </p>
             <p className='size'>Talla {product.size}</p>
+            <BtnWhatsapp />
           </div>
+
         </div>
       ))}
     </div>

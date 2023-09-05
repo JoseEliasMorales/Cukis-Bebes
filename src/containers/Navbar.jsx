@@ -4,7 +4,7 @@ import logo from '../assets/logoblanco.png'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
-const menu = [{ title: 'Inicio', path: '/' }, { title: 'Catálogo', path: '/catalog/verano' }, { title: 'Tabla de medidas', path: '/sizes' }, { title: 'Preguntas frecuentes', path: '/asks' }]
+const menu = [{ title: 'Inicio', path: '/' }, { title: 'Catálogo', path: '/catalog/invierno' }, { title: 'Tabla de medidas', path: '/sizes' }, { title: 'Preguntas frecuentes', path: '/asks' }]
 const Navbar = () => {
   const [abiertoCerrado, setAbiertoCerrado] = useState('cerrado')
   const [enlaceActivo, setEnlaceActivo] = useState('/')
