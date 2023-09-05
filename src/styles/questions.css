@@ -55,6 +55,11 @@
   }
 
   @media (max-width: 1200px) {
+    .asks{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
     .activeAsk{
         height: 220px;
     }
@@ -64,6 +69,9 @@
   }
 
   @media (max-width: 992px) {  
+    .asks{
+        gap: 60px;
+    }
     .contAsk{
         width: 90%;
     }
@@ -75,19 +83,23 @@
 
   
   @media (max-width: 768px) {  
+    .asks{
+        padding: 0px 0px 40px;
+    }
     .activeAsk{
         height: 300px;
     }
   }
   
-  
   @media (max-width: 576px) {  
+    .asks{
+        display: block;
+    }
+    
     .contAsk{
         font-size: 18px;
     }
-   
   }
-  
   
   @media (max-width: 500px) {  
      .activeAsk{
