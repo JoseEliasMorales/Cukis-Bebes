@@ -102,7 +102,9 @@
     .buttonNav:active{
         transform: scale(.9);
     }
-
+    .logoNavbar{
+        width: 30px;
+    }
     .menuList{
         display: none;
     }
