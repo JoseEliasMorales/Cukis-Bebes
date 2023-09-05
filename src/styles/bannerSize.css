@@ -18,3 +18,58 @@
 .banner{
     overflow: hidden;
 }
+
+@media (max-width: 1400px) {
+
+    .textoBannerSizes{
+        text-align: center;
+        width: 50%;
+    }
+    .lines{
+        left: 100px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .lines{
+        width: 140px; 
+    }
+    .textoBannerSizes{
+        font-size: 24px;
+    }
+  }
+
+  @media (max-width: 992px) {  
+    .lines{
+        left: 75px;
+    }
+    .textoBannerSizes{
+        font-size: 22px;
+    }
+  }
+
+  
+  @media (max-width: 768px) {  
+    .lines{
+        bottom: -108px;
+        width: 110px;
+        left: 50px;
+    }
+    .textoBannerSizes{
+        font-size: 20px;
+        width: 80%;
+    }
+  }
+  
+  
+  @media (max-width: 576px) {  
+    .lines{
+        width: 60px;
+        left: 22px;
+        bottom: -53px;
+    }
+
+   .textoBannerSizes{
+    font-size: 16px;
+   }
+  }

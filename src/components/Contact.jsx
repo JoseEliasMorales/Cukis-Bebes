@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='containerDateContact'>
           <a href='https://wa.me/c/5493516001513' target='_blank' className='dateContact' rel='noreferrer'>
             <img src={whats} alt='whatsapp' className='imgContact' />
-            <a className='textoContact'>+54 9 351 600-1513</a>
+            <p className='textoContact'>+54 9 351 600-1513</p>
           </a>
           <a href='https://www.instagram.com/cukis.bebes/' target='_blank' className='dateContact' rel='noreferrer'>
             <img src={insta} alt='instagram' className='imgContact' />

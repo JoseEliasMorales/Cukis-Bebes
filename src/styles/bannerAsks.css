@@ -2,6 +2,7 @@
     max-width: 60%;
 }
 .titleAsks{
+    text-align: center;
     font-weight: 600;
 }
 .btnBannerAsks{
@@ -29,3 +30,31 @@
     bottom: 0;
     right: 0;
 }
+
+@media (max-width: 1200px) {
+    .flower{
+        width: 84px;
+    }
+  }
+
+  @media (max-width: 992px) {  
+   
+  }
+
+  @media (max-width: 768px) {  
+    .titleAsks{
+        font-size: 24px;
+    }
+    .flower{
+        width: 63px;
+    }
+  }
+  
+  @media (max-width: 576px) {  
+    .titleAsks{
+        font-size: 17px;
+    }
+    .flower{
+        width: 50px;
+    }
+  }
