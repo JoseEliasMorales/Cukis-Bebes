@@ -1,9 +1,10 @@
 import '../styles/navbar.css'
 import instagram from '../assets/instagramNav.png'
+import logo from '../assets/logoblanco.png'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
-const menu = [{ title: 'Inicio', path: '/' }, { title: 'Catálogo', path: '/catalog/verano' }, { title: 'Tabla de medidas', path: '/sizes' }, { title: 'Preguntas frecuentes', path: '/asks' }]
+const menu = [{ title: 'Inicio', path: '/' }, { title: 'Catálogo', path: '/catalog/invierno' }, { title: 'Tabla de medidas', path: '/sizes' }, { title: 'Preguntas frecuentes', path: '/asks' }]
 const Navbar = () => {
   const [abiertoCerrado, setAbiertoCerrado] = useState('cerrado')
   const [enlaceActivo, setEnlaceActivo] = useState('/')
@@ -22,7 +23,7 @@ const Navbar = () => {
           </defs>
         </svg>
       </button>
-      <div className='contName'>Cukis Bebés</div>
+      <Link className='contName' to='/'> <img className='logoNavbar' src={logo} alt='' />Cukis Bebés</Link>
       <div className='menuList'>
         {
               menu.map(li => (
@@ -44,7 +45,7 @@ const Navbar = () => {
             ))
           }
       </div>
-      <img src={instagram} alt='instagram Cukis Bebes' className='instagramHeader' />
+      <a href='https://www.instagram.com/cukis.bebes/' target='_blank' rel='noreferrer'><img src={instagram} alt='instagram Cukis Bebes' className='instagramHeader' /></a>
     </div>
   )
 }

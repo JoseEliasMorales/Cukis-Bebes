@@ -4,6 +4,25 @@
     gap: 129px;
     justify-content: center;
     margin-bottom: 60px;
+    
+}
+
+.btnWhats{
+    display: flex;
+    width: 200px;
+    height: 36px;
+    margin: 0px auto;
+    border-radius: 100px;
+    border: 2px solid #ACB1D6;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #ACB1D6;
+    text-decoration: none;
+}
+.btnWhats:hover{
+    background-color: #ACB1D6;
+    color: #fff;
 }
 
 .cardCatalog{
@@ -15,6 +34,7 @@
     width: 296px;
     height: 296px;
     border-radius: 8px 8px 0px 0px;
+    object-fit: fill;
 }
 .priceSize{
     height: 96px;

@@ -9,18 +9,18 @@ const Contact = () => {
       <h3 className='titleContact'>Contactame</h3>
       <div className='divDisplayContact'>
         <div className='containerDateContact'>
-          <div className='dateContact'>
+          <a href='https://wa.me/c/5493516001513' target='_blank' className='dateContact' rel='noreferrer'>
             <img src={whats} alt='whatsapp' className='imgContact' />
-            <p className='textoContact'>12345678910</p>
-          </div>
-          <div className='dateContact'>
+            <a className='textoContact'>+54 9 351 600-1513</a>
+          </a>
+          <a href='https://www.instagram.com/cukis.bebes/' target='_blank' className='dateContact' rel='noreferrer'>
             <img src={insta} alt='instagram' className='imgContact' />
             <p className='textoContact'>@Cukisbebes</p>
-          </div>
-          <div className='dateContact'>
+          </a>
+          <a href='https://www.facebook.com/profile.php?id=100073351473514' target='_blank' className='dateContact' rel='noreferrer'>
             <img src={face} alt='facebook' className='imgContact' />
             <p className='textoContact'>Cukis bebes</p>
-          </div>
+          </a>
         </div>
         <img src={logo} alt='' className='logoContact' />
       </div>
