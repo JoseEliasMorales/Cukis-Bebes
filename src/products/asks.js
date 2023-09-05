@@ -1,10 +1,6 @@
 export const questions = [
-  { ask: '¿Cómo hago un pedido?', response: '' },
-  { ask: '¿Cuáles son los métodos de envío?', response: '' },
-  { ask: '¿Puedo retirar mi pedido por el local?', response: '' },
-  { ask: '¿Cómo realizo un cambio o una devolución? ', response: '' },
-  { ask: '¿Qué debo hacer si mi producto tiene fallas? ', response: '' },
-  { ask: '¿Cómo cuidar la ropa?', response: '' },
-  { ask: '¿Cómo elegir el talle correcto para mi bebé?', response: '' },
-  { ask: '¿De qué manera puedo pagar mi pedido? ', response: '' },
-  { ask: '¿De qué manera puedo pagar mi pedido? ', response: '' }]
+  { ask: '¿Cómo hago un pedido?', response: 'Seleccioná la ropita que querés para tu bebé y su talle, podés acceder a nuestro catalogo por la web y ver los talles en los que está disponible la prenda. Una vez elegida la prenda y el talle, nos envías un mensaje por Whatsapp o a través de nuestras redes sociales y realizas tu pedido.' },
+  { ask: '¿Cuáles son los métodos de envío?', response: 'Realizamos envíos a través de servicio por cadetería o podes realizar el retiro en nuestro domicilio particular, comunicate con nosotras por whatsapp una vez realizado tu pedido y coordinamos el que mejor se adapte a tus necesidades.' },
+  { ask: '¿Cómo realizo un cambio?', response: 'Los cambios se pueden realizar por talle o fallas, si el pedido que hiciste presenta alguna falla o el talle es incorrecto avisanos por Whatsapp o por nuestras redes sociales y coordinamos el cambio, los cambios se realizan en nuestro domicilio particular.' },
+  { ask: '¿Cómo elegir el talle correcto para mi bebé?', response: 'Para elegir el talle de la ropita para tu bebé podés acceder a nuestra tabla de talles, donde podés ver el talle que más se adapta a tu bebé según su edad y el peso. Si tenés alguna duda podés consultarnos por Whatsapp o por nuestras redes sociales y nosotras te asesoramos.' },
+  { ask: '¿De qué manera puedo pagar mi pedido? ', response: 'Los medios de pago con los que trabajamos son en efectivo o transferencia bancaria, una vez realizado el pedido y el método de envío, podés acceder al pago de la forma que te quede más cómoda.' }]

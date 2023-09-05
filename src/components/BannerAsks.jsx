@@ -5,9 +5,13 @@ const BannerAsks = () => {
   return (
     <div className='banner'>
       <div className='bannerAsks'>
-        <h2 className='title titleAsks'>Bienvenida/o, ¿En qué podemos ayudarte hoy?</h2>
+        <p className='title titleAsks'>Bienvenida/o</p>
+        <h2 className='title titleAsks'>¿En qué podemos ayudarte hoy?</h2>
       </div>
-      <img src={ghost} alt=' ' className='tape' />
+      {window.innerWidth > 768 &&
+        <>
+          <img src={ghost} alt=' ' className='fanInv' style={{ left: `${window.innerWidth > 1200 ? (window.innerWidth - 993) / 3 - 20 : (window.innerWidth - 768) / 3 + 10}px` }} />
+        </>}
       <img src={flower} alt=' ' className='flower' />
     </div>
   )

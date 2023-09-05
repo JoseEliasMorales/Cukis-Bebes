@@ -9,7 +9,7 @@
 
 .btnWhats{
     display: flex;
-    width: 200px;
+    width: 80%;
     height: 36px;
     margin: 0px auto;
     border-radius: 100px;
@@ -82,7 +82,10 @@
     .cardsCatalog{
         gap: 45px;
     }
-
+    .btnWhats{
+        font-size: 12px;
+        gap: 6px;
+    }
     .imgCardCatalog{
         width: 154px;
         height: 154px;
