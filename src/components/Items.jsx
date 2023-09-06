@@ -10,7 +10,7 @@ const Items = ({ items }) => {
         <div key={index} className='cardCatalog'>
           <img className='imgCardCatalog' src={product.img} alt='' />
           <div className={`priceSize priceSize-${index % 3}`}>
-            <p className='size'>Talla {product.size}</p>
+            <p className='size'>Talle {product.size}</p>
             <BtnWhatsapp />
           </div>
 
