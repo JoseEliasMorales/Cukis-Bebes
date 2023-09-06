@@ -13,12 +13,12 @@ const cardData = [
   },
   {
     title: 'Visión',
-    p: 'Nuestra visión es convertirnos en tu opción preferida a la hora de elegir ropa y accesorios para tus hijos, llegando a cada día a más hogares.',
+    p: 'Nuestra visión es convertirnos en tu opción preferida a la hora de elegir ropa y accesorios para tus hijos, llegando cada día a más hogares.',
     image: card2
   },
   {
     title: 'Valores',
-    p: 'Nuestro valores se basan en la originalidad, en el amor y en el cuidado. Buscando prendas que acompañen a tu bebe en sus primeros pasos.',
+    p: 'Nuestros valores se basan en la originalidad, en el amor y en el cuidado. Buscando prendas que acompañen a tu bebé en sus primeros pasos.',
     image: card3
   }
 ]
